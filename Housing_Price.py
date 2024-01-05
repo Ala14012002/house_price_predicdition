@@ -36,7 +36,7 @@ property_type_mapping = {"Apartment": 0,
                          "Villa" : 5}
 
 #Loading the model
-with open("model.pkl",'rb') as f:
+with open("Model.pkl",'rb') as f:
     model = pickle.load(f)
 
 def predict(bed,bath,loc,size,facing,Type):
